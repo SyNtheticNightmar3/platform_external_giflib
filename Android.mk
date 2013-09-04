@@ -6,7 +6,7 @@ LOCAL_SRC_FILES := \
 	gifalloc.c \
 	gif_err.c
 
-LOCAL_CFLAGS += -Wno-format -DHAVE_CONFIG_H
+LOCAL_CFLAGS += -Wno-format
 
 LOCAL_MODULE:= libgif
 
